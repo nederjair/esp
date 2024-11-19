@@ -1,0 +1,10 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Catppuccin",
+  "accentColor": "#6bef7b",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font Mono",
+  "baseFontSize": 16,
+  "baseFontSizeAction": true
+}
