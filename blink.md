@@ -1,4 +1,4 @@
-## 1. Start a Project
+## 1. Start a the blink project
 
 ### 1.1. enter the esp folder
 
@@ -16,7 +16,7 @@ get_idf
 ### 1.2. copy a base project from the get-started folder
 
 ```bash
-cp -r $IDF_PATH/examples/get-started/hello_world .
+cp -r $IDF_PATH/examples/get-started/blink/ .
 ```
 
 ## 2. Compile the program for your device
@@ -24,7 +24,7 @@ cp -r $IDF_PATH/examples/get-started/hello_world .
 ### 2.1. enter the copied base project folder
 
 ```bash
-cd ~/esp/hello_world
+cd ~/esp/blink/
 ```
 
 ### 2.2.  set ESP32-C6 as the target
@@ -38,6 +38,15 @@ idf.py set-target esp32c6
 ```bash
 idf.py menuconfig
 ```
+
+### 2.4. Set the type of LED to use, in this case we set it to GPIO.
+
+
+### 2.5. set the GPIO pin number where the LED is located to 15. The LED of XIAO ESP32C6 is connected to GPIO15. 
+
+### 2.6. set the period of the LED in ms
+
+### 2.7. save the configuration pressing `s`
 
 ### 2.4. get out of the menu pressing `esc`
 
@@ -80,17 +89,3 @@ idf.py -p PORT monitor
 **get out from the monitor pressing `ctrl + ]`**
 
 (Do not forget to replace PORT with your serial port name). This command launches the IDF Monitor application.
-
-# Troubleshooting
-
-##  Could not open port <PORT>: Permission denied: '<PORT>'
-The currently logged user should have read and write access the serial port over USB. On most Linux distributions, this is done by adding the user to dialout group with the following command:
-```bash
-sudo usermod -a -G dialout $USER
-```
-
-on Arch Linux this is done by adding the user to uucp group with the following command:
-
-```bash
-sudo usermod -a -G uucp $USER
-```
