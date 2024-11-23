@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blink.md",
+                "file": "getStarted.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "blink"
+              "title": "getStarted"
             }
           }
         ]
@@ -160,20 +160,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6340f3b50a297856",
+  "active": "92540fd3736c6b33",
   "lastOpenFiles": [
+    "project.md~",
+    "led/build/log/idf_py_stdout_output_229067",
+    "led/build/log/idf_py_stderr_output_229067",
+    "led/build/log/idf_py_stdout_output_228885",
+    "led/build/log/idf_py_stderr_output_228885",
+    "led/main/led.c",
+    "led/main/led.c~",
+    "led/build/log/idf_py_stdout_output_228495",
+    "led/build/log/idf_py_stderr_output_228495",
+    "led/build/log/idf_py_stdout_output_228315",
+    "led/build/log/idf_py_stderr_output_228315",
+    "led/README.md",
     "project.md",
+    "getStarted.md",
+    "menuconfig.md",
     "blink.md",
-    "blink.md~",
-    "blink/build/log/idf_py_stdout_output_28588",
-    "blink/build/log/idf_py_stderr_output_28588",
-    "blink/build/esp-idf/main/stuzcgL4",
-    "blink/build/log/idf_py_stdout_output_28366",
-    "blink/build/log/idf_py_stderr_output_28366",
-    "blink/main/blink_example_main.c",
-    "blink/main/blink_example_main.c~",
-    "blink/build/log/idf_py_stdout_output_27948",
-    "blink/build/log/idf_py_stderr_output_27948",
     "blink/managed_components/espressif__led_strip/examples/led_strip_spi_ws2812/README.md",
     "blink/managed_components/espressif__led_strip/examples/led_strip_rmt_ws2812/README.md",
     "blink/managed_components/espressif__led_strip/api.md",
@@ -194,9 +198,6 @@
     "linux/git.md",
     "linux/bash.md",
     "postgres/postgresCommands.md",
-    "linux/wifi.md",
-    "web/HTTP.md",
-    "linux/Linux Fonts.md",
     "phd/imgs/model.svg",
     "phd/imgs/model_geometry.svg",
     "phd/imgs/ModelEquations(1).svg",
